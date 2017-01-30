@@ -37,3 +37,15 @@ Default
 
 Default  
 `{{ textToSlugify | slugify }}`
+
+
+## HTML Escape/Unescape
+#### Escape or Unescape HTML
+
+`Vue.filter('html', require('./filters/html'));`
+
+Escape  
+`{{ htmlToEscape | html('escape') }}`
+
+Unescape  
+`{{ htmlToUnescape | html('unescape') }}`

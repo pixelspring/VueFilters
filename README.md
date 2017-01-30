@@ -28,3 +28,12 @@ Default
 
 Default  
 `{{ textToTruncate | truncateText(100) }}`
+
+
+## Slugify
+#### Convert text to slug format
+
+`Vue.filter('slugify', require('./filters/slugifyText'));`
+
+Default  
+`{{ textToSlugify | slugify }}`
